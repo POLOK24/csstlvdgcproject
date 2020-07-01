@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    width: 100%;
+    margin: 5px auto;
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+    height: 100px;
+}
+
+.a {
+    width: 90%;
+    margin: 5px auto;
+    background-color: lightblue;
+}
+
+.hs {
+    background-image: url(logo-site%20.png);
+    height: 150px;
+    background-size: 100% 100%;
+    background-color: #025133;
+    margin: 20px 0px 0px 0px;
+    border-bottom: 2px solid red;
+}
+
+.menu {
+    background-color: #4DB34B;
+    height: 40px;
+}
+
+.menu ul {
+    margin: 0;
+
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: #025133;
+    color: white;
+}
+
+.w {
+    margin: 0;
+}
+
+.w {
+    margin-left: 20px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.w2 {
+    color: white;
+    text-align: left;
+    background-color: white;
+    height: 290px;
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: left;
+}
+
+.w2 h4 {
+    background-color: #025133;
+    height: 50px;
+    border-color: black;
+    margin-top: 0px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 20px 0px 0px 10px;
+
+}
+
+.rc {
+    margin: 0;
+}
+
+.rc1,
+.rc2,
+.rc3,
+.rc5 {
+    background-color: red;
+    height: 50px;
+    width: 25%;
+    border-radius: 5px;
+    float: right;
+    margin: 10px 20px 0px 0px;
+    color: white;
+    text-align: center;
+}
+
+.rc4 {
+    background-color: #025133;
+    height: 50px;
+    width: 25%;
+    border-radius: 5px;
+    float: right;
+    margin: 10px 20px 0px 0px;
+    margin-top: 10px;
+
+    color: white;
+    text-align: center;
+}
+
+
+
+.pmvpm {
+    margin: 0;
+}
+
+.pm {
+    color: white;
+    text-align: left;
+    background-color: white;
+    height: 290px;
+    width: 33%;
+    border-radius: 5px;
+    margin: 10px 0px 0px 20px;
+    float: left;
+}
+
+.pm h4 {
+    background-color: #025133;
+    height: 50px;
+    border-color: black;
+    border-radius: 5px 5px 0px 0px;
+    padding: 20px 0px 0px 10px;
+
+    margin-top: 0px;
+}
+
+.vpm {
+    background-image: url(letter%20inside%20a%20book.jpg);
+    color: white;
+    text-align: left;
+    background-color: white;
+    height: 290px;
+    width: 33%;
+    border-radius: 4px;
+    margin: 10px 0px 0px 40px;
+    float: left;
+}
+
+.vpm h4 {
+    background-color: #025133;
+    height: 50px;
+    border-color: black;
+    border-radius: 5px 5px 0px 0px;
+    padding: 20px 0px 0px 10px;
+
+    margin-top: 0px;
+}
+
+.nb {
+    background-image: url(letter%20inside%20a%20book.jpg);
+    color: white;
+    text-align: left;
+    background-color: white;
+    height: 250px;
+    width: 25%;
+    border-radius: 5px;
+    margin: 10px 20px 0px 0px;
+    float: right;
+}
+
+.nb h4 {
+    background-color: #025133;
+    height: 50px;
+    border-color: black;
+    border-radius: 5px 5px 0px 0px;
+    padding: 20px 0px 0px 10px;
+
+    margin-top: 0px;
+}
+
+.fd {
+    background-image: url(letter%20inside%20a%20book.jpg);
+    color: white;
+    text-align: left;
+    background-color: white;
+    height: 250px;
+    width: 25%;
+    border-radius: 4px;
+    margin: 20px 20px 0px 0px;
+    float: right;
+}
+
+.fd h4 {
+    background-color: #025133;
+    height: 50px;
+    border-color: black;
+    border-radius: 5px 5px 0 0;
+    padding: 20px 0px 0px 10px;
+    margin-top: 0px;
+    list-style-image: url(1.png);
+}
+
+.fd ul {
+    margin: 0;
+}
+
+.fd ul li {
+    display: inline-block;
+    list-style-image: url(1.png);
+    color: black;
+    font-size: 20px;
+}
+
+.fd ul li a {
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.fd ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.gb {
+    background-image: url(letter%20inside%20a%20book.jpg);
+    color: white;
+    text-align: left;
+    background-color: white;
+    height: 290px;
+    width: 69%;
+    border-radius: 5px;
+    margin: 10px 0px 0px 20px;
+    float: left;
+}
+
+.gb h4 {
+    background-color: #025133;
+    height: 50px;
+    border-color: black;
+    border-radius: 5px 5px 0px 0px;
+    padding: 20px 0px 0px 10px;
+
+    margin-top: 0px;
+}
+
+.il {
+    background-image: url(letter%20inside%20a%20book.jpg);
+    color: white;
+    text-align: left;
+    background-color: white;
+    height: 290px;
+    width: 25%;
+    border-radius: 4px;
+    margin: 20px 20px 0px 0px;
+    float: right;
+}
+
+.il h4 {
+    background-color: #025133;
+    height: 50px;
+    border-color: black;
+    border-radius: 5px 5px 0px 0px;
+    padding: 20px 0px 0px 10px;
+    margin-top: 0px;
+}
+
+.il ul {
+    margin: 0;
+}
+
+.il ul li {
+    list-style-image: url(1.png);
+    color: black;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
+.il ul li a {
+    text-decoration: none;
+}
+
+.il ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.tdiv {
+    color: white;
+    text-align: left;
+    background-color: transparent;
+    height: 450px;
+    width: 67%;
+    border-radius: 4px;
+    float: left;
+}
+
+.wmc {
+    text-align: left;
+    height: 150px;
+    width: 29.2%;
+    border-radius: 4px;
+    margin-top: 2.5%;
+    float: right;
+}
+
+.wmc ul {
+    margin: 0;
+    color: black;
+    text-align: left;
+    font-size: 17px;
+    margin: 0px 20px 0px 0px;
+}
+
+.wmc ul li {
+    padding: 10px 50px 10px 10px;
+    background-color: white;
+    border-bottom: 2px solid lightblue;
+    border-radius: 5px;
+    list-style-position: inside;
+}
+
+.wmc ul li a {
+    text-decoration: none;
+}
+
+.wmc ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+#web {
+    list-style-image: url(2.png);
+}
+
+#mail {
+    list-style-image: url(3.png);
+}
+
+#cnt {
+    list-style-image: url(4.png);
+}
+
+.pg {
+    color: white;
+    text-align: left;
+    background-color: white;
+    height: 200px;
+    width: 97%;
+    border-radius: 5px;
+    margin: 0px 10px 0px 20px;
+    display: inline-block;
+}
+
+.pg h4 {
+    background-color: #025133;
+    height: 50px;
+    border-color: black;
+    border-radius: 5px 5px 0px 0px;
+    padding: 20px 0px 0px 10px;
+    margin-top: 0px;
+}
+
+.dc {
+    color: white;
+    text-align: left;
+    background-color: white;
+    width: 30%;
+    border-radius: 5px;
+    margin: 10px 0px 0px 20px;
+    float: left;
+}
+
+.dc h4 {
+    background-color: #025133;
+    height: 50px;
+    border-color: black;
+    border-radius: 5px 5px 0px 0px;
+    padding: 20px 0px 0px 10px;
+    margin-top: 0px;
+}
+
+.dc img {
+    margin-left: px;
+    height: 100%;
+    width: 100%;
+}
+
+.gmap {
+    color: white;
+    text-align: left;
+    background-color: white;
+    width: 30%;
+    border-radius: 5px;
+    margin: 10px 0px 0px 48px;
+    float: left;
+}
+
+.gmap h4 {
+    background-color: #025133;
+    height: 50px;
+    border-color: black;
+    border-radius: 5px 5px 0px 0px;
+    padding: 20px 0px 0px 10px;
+    margin-top: 0px;
+}
+
+.gmap img {
+    height: 100%;
+    width: 65%;
+}
+
+.cont {
+    color: white;
+    text-align: left;
+    background-color: white;
+    width: 30%;
+    border-radius: 5px;
+    margin: 10px 20px 0px 48px;
+    float: left;
+}
+
+.cont h4 {
+    background-color: #025133;
+    height: 50px;
+    border-color: black;
+    border-radius: 5px 5px 0px 0px;
+    padding: 20px 0px 0px 10px;
+    margin-top: 0px;
+}
+
+.cont img {
+    height: 80%;
+    width: 66%;
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.footer p {
+    background-color: #025133;
+    height: 50px;
+    margin-top: 10px;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    color: white;
+
+}
